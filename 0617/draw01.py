@@ -1,0 +1,38 @@
+import turtle as t
+
+t.shape('turtle')
+for i in range(4):
+    t.right(90)
+
+
+t.color('black')
+t.penup()
+t.goto(0,0)
+t.pendown()
+t.pensize(5)
+t.circle(45)
+t.color('red')
+t.penup()
+t.goto(100,0)
+t.pendown()
+t.circle(45)
+t.color('green')
+t.pensize(5)
+t.penup()
+t.goto(-100,0)
+t.pendown()
+t.circle(45)
+t.color('yellow')
+t.penup()
+t.goto(-50,-40)
+t.pendown()
+t.pensize(5)
+t.circle(45)
+t.penup()
+t.color('blue')
+t.penup()
+t.goto(50,-40)
+t.pendown()
+t.pensize(5)
+t.circle(45)
+
